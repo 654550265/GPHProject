@@ -1,0 +1,28 @@
+.header{
+	width:100%;
+	height: 34px;
+	border-bottom: 1px solid #E2E2E2;
+	.header-center{
+		height:34px;
+		.header-center-left{
+			line-height: 34px;
+			float: left;
+		}
+		.header-center-right{
+			float: right;
+			line-height: 34px;
+			span{
+				float: left;
+				padding-right:9px;
+				display: inline-block;
+				color:#ccc;
+				img{
+					margin-top: 8px;
+				}
+				a{
+					padding-right:10px;
+				}
+			}
+		}
+	}
+}
