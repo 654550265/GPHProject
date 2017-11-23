@@ -1,0 +1,121 @@
+@import "right-black-fixed";
+.main-width{
+	width: 1200px;
+	margin:0 auto;
+}
+.fl {
+	float: left;
+}
+
+.hide {
+	display: none;
+}
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.login-logo {
+	height: 100px;
+	span {
+		float: left;
+		line-height: 100px;
+		color: #333;
+		font-size: 18px;
+	}
+	.tel {
+		float: right;
+		margin-top: 30px;
+	}
+}
+
+.logo {
+	margin-top: 16px;
+	width: 300px;
+	height: 60px;
+}
+
+.logo-banner {
+	width: 100%;
+	height: 600px;
+	background-image: url("../image/login_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.login-main {
+	float: right;
+	width: 344px;
+	min-height: 369px;
+	background-color: #ffffff;
+	margin-top: 120px;
+}
+
+.logo-title {
+	width: 294px;
+	margin: 0 auto;
+	border-bottom: 1px solid #F1F1F1;
+	padding: 35px 0 8px 0;
+	font-size: 18px;
+}
+
+.no-pass {
+	color: #de0539;
+	width: 274px;
+	margin: 20px auto 0 auto;
+	padding-left: 20px;
+	background-image: url("../image/error.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+}
+
+.login-btn {
+	display: block;
+	width: 294px;
+	background-color: #de0539;
+	color: white;
+	margin:5px auto 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+.forget-box{
+	overflow: hidden;
+	width: 294px;
+	margin:15px auto 0 auto;
+	font-size: 14px;
+	.forget-pwd{
+		float: left;
+	}
+	.resgite{
+		float: right;
+	}
+}
+.put-box {
+	width: 284px;
+	margin: 20px auto 0 auto;
+	p {
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	input {
+		width: 100%;
+		border: 1px solid #ddd;
+		height: 40px;
+		line-height: 40px;
+		margin-top: 6px;
+		padding-left: 10px;
+		font-size: 14px;
+	}
+	.u-b {
+		background: url("../image/name.jpg") no-repeat right 10px center;
+	}
+	.p-b {
+		background: url("../image/password.jpg") no-repeat right 10px center;
+	}
+}
+@import "footer";

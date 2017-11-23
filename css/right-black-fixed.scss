@@ -1,0 +1,154 @@
+
+.rit-call {
+	width: 40px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 10;
+	bottom: 0px;
+	background-color: #333;
+}
+.rit-call-main {
+	float: left;
+	margin-top: 200px;
+	position: relative;
+	border-top: 1px solid #444;
+	.rit-cart-title{
+		color: white;
+	}
+}
+.rit-call-main a.info {
+	width: 40px;
+	background: url(../image/user_1.png) no-repeat 50% 10px;
+	padding-top: 38px;
+	padding-bottom: 10px;
+}
+
+.rit-call-main a:nth-child(2){
+	border-bottom: 0;
+}
+.rit-call a {
+	font-weight: bold;
+}
+
+.rit-call-main a.chart {
+	width: 40px;
+	padding: 38px 0px 10px;
+	background: url(../image/chart_1.png) no-repeat 50% 10px;
+}
+.rit-call-main a.cart {
+	width: 40px;
+	padding: 38px 0px 10px;
+	background: url(../image/cart_1.png) no-repeat 50% 10px;
+}
+
+.rit-cart-title {
+	width: 22px;
+	text-align: center;
+	display: inline-block;
+}
+.rit-cart-num {
+	display: inline-block;
+	min-width: 16px;
+	padding: 0px 2px;
+	line-height: 20px;
+	background-color: #fff;
+	color: #de0539;
+	border-radius: 11px;
+	margin-top: 3px;
+	font-weight: normal;
+}
+.rit-call-kf {
+	width: 150px;
+	position: absolute;
+	bottom: 121px;
+	left: -150px;
+}
+.rit-call-kf-box {
+	width: 150px;
+	position: relative;
+	background-color: #4A413D;
+}
+.rit-call-kf-box, .rit-call-kf-box a {
+	float: left;
+}
+.rit-call-kf-box a {
+	width: 125px;
+	margin-left: 10px;
+	text-align: left;
+	border-bottom: 1px dotted #E2E2E2;
+	line-height: 35px;
+	padding-left: 5px;
+}
+.rit-call-main a {
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.rit-call-kf-box a img {
+	margin-bottom: -8px;
+}
+.rit-call-kf-box a label {
+	margin-left: 10px;
+	cursor: pointer;
+	color:white;
+}
+.rit-call-kf-box a label:hover{
+	color:#de0539;
+}
+.rit-call-kf-box span {
+	width: 7px;
+	height: 13px;
+	background: url(../image/r_yj.png) no-repeat left top;
+	position: absolute;
+	right: -7px;
+	bottom: 28px;
+}
+.rit-call-kf-box .J_qq_click:hover{
+	background-color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+	color:#de0539;
+}
+#zixun:hover .rit-call-kf{
+	display: block;
+}
+.rit-call-bottom {
+	width: 40px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.rit-call-bottom a.likestore {
+	width: 40px;
+	padding: 38px 0px 10px;
+	background: url(../image/likestore_1.png) no-repeat 50% 10px;
+}
+.rit-call-bottom a {
+	float: left;
+	border-top: 1px solid #444;
+}
+.rit-call-bottom a.saoma {
+	width: 40px;
+	padding: 38px 0px 10px;
+	background: url(../image/saoma_1.png) no-repeat 50% 10px;
+}
+.rit-call-bottom a.return-top {
+	color: #fff;
+	text-align: center;
+	width: 40px;
+	padding: 38px 0px 10px;
+	background: url(../image/returntop_1.png) no-repeat 50% 10px;
+}
+.rit-call a:hover,.rit-call a.active{
+	text-decoration: none;
+	background-color: #de0539;
+}
+.sm-box {
+	width: 124px;
+	height: 210px;
+	position: absolute;
+	left: -124px;
+	bottom: 0px;
+	font-size: 0px;
+}
