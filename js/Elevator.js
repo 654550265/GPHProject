@@ -28,6 +28,7 @@
             init:function(){
                 this.menuLeft();
                 this.getHotBrand();
+                this.getFlash();
             },
             menuLeft:function(){
                 var topHeight=$(dom.J_floorGoods).offset().top,
@@ -90,6 +91,10 @@
                     "rightButton":$(dom.J_showRight),
                     "box":$(dom.J_b)
                 });
+            },
+            getFlash:function(){
+                var screen=$(window).width();
+                falseScreen.init($('.J_banner'), screen, true);
             }
         }
     })();

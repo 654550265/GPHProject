@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff961be-d78b-408b-88d0-ae446a4b0264" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Initialization.css" afterPath="$PROJECT_DIR$/css/Initialization.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Initialization.css.map" afterPath="$PROJECT_DIR$/css/Initialization.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Initialization.scss" afterPath="$PROJECT_DIR$/css/Initialization.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Elevator.js" afterPath="$PROJECT_DIR$/js/Elevator.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +42,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="1468" column="28" lean-forward="false" selection-start-line="1468" selection-start-column="28" selection-end-line="1468" selection-end-column="28" />
+            <state relative-caret-position="532">
+              <caret line="1469" column="38" lean-forward="false" selection-start-line="1469" selection-start-column="38" selection-end-line="1469" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -113,8 +107,8 @@
       <file leaf-file-name="Elevator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Elevator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="461">
+              <caret line="96" column="63" lean-forward="true" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -224,9 +218,9 @@
         <option value="$PROJECT_DIR$/css/footer.scss" />
         <option value="$PROJECT_DIR$/css/login.scss" />
         <option value="$PROJECT_DIR$/js/showBaner.js" />
+        <option value="$PROJECT_DIR$/css/Initialization.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/Elevator.js" />
-        <option value="$PROJECT_DIR$/css/Initialization.scss" />
       </list>
     </option>
   </component>
@@ -339,12 +333,12 @@
       <workItem from="1511010832521" duration="75000" />
       <workItem from="1511091350502" duration="4319000" />
       <workItem from="1511177068930" duration="11836000" />
-      <workItem from="1511438901821" duration="6547000" />
+      <workItem from="1511438901821" duration="6878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72495000" />
+    <option name="totallyTimeSpent" value="72826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
@@ -658,10 +652,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Initialization.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="480" column="28" lean-forward="false" selection-start-line="480" selection-start-column="28" selection-end-line="480" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/showBaner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="1468" column="28" lean-forward="false" selection-start-line="1468" selection-start-column="28" selection-end-line="1468" selection-end-column="28" />
+        <state relative-caret-position="532">
+          <caret line="1469" column="38" lean-forward="false" selection-start-line="1469" selection-start-column="38" selection-end-line="1469" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -701,44 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Initialization.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="480" column="28" lean-forward="false" selection-start-line="480" selection-start-column="28" selection-end-line="480" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/showBaner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Elevator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="461">
+          <caret line="96" column="63" lean-forward="true" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
           <folding />
         </state>
       </provider>
