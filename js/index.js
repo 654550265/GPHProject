@@ -13,47 +13,54 @@
                 this.J_showZxOvers();
                 this.J_showZxLeave();
                 this.J_showZxLeaves();
+                var idArray=[13,14,15];
+                $.each(idArray, function (p, q) {
+                    $('.J_switchBrand' + q).find("li").soChange({
+                        thumbObj: '.J_switchBrandPoint' + q + ' a',
+                        thumbNowClass: 'active'
+                    });
+                });
             },
             J_showZxOver: function () {
                 $(dom.zixun).on("mouseover", function () {
                     $(this).addClass('active');
-                    $(dom.J_showZx).css('display','block');
+                    $(dom.J_showZx).css('display', 'block');
                 });
                 $(dom.zixun).on("mouseleave", function () {
                     $(this).removeClass('active');
-                    $(dom.J_showZx).css('display','none');
+                    $(dom.J_showZx).css('display', 'none');
                 });
-                $(dom.J_showZx).on('mouseover',function(){
+                $(dom.J_showZx).on('mouseover', function () {
                     $(dom.zixun).addClass('active');
-                    $(this).css('display','block');
+                    $(this).css('display', 'block');
                 })
                 $(dom.J_showZx).on("mouseleave", function () {
                     $(dom.zixun).removeClass('active');
-                    $(this).css('display','none');
+                    $(this).css('display', 'none');
                 });
             },
-            J_showZxLeave:function(){
+            J_showZxLeave: function () {
                 $(dom.saoma).on("mouseover", function () {
                     $(this).addClass('active');
-                    $(dom.J_smShow).css('display','block');
+                    $(dom.J_smShow).css('display', 'block');
                 });
                 $(dom.saoma).on("mouseleave", function () {
                     $(this).removeClass('active');
-                    $(dom.J_smShow).css('display','none');
+                    $(dom.J_smShow).css('display', 'none');
                 });
-                $(dom.J_smShow).on('mouseover',function(){
+                $(dom.J_smShow).on('mouseover', function () {
                     $(dom.saoma).addClass('active');
-                    $(this).css('display','block');
+                    $(this).css('display', 'block');
                 })
                 $(dom.J_smShow).on("mouseleave", function () {
                     $(dom.saoma).removeClass('active');
-                    $(this).css('display','none');
+                    $(this).css('display', 'none');
                 });
             },
-            J_showZxOvers:function(){
+            J_showZxOvers: function () {
 
             },
-            J_showZxLeaves:function(){
+            J_showZxLeaves: function () {
 
             },
         }
