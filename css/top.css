@@ -1,34 +1,31 @@
-.main-width{
-	width:1200px;
-	margin:0 auto;
-}
 .header{
 	width:100%;
 	height: 34px;
 	border-bottom: 1px solid #E2E2E2;
-	.header-center{
-		height:34px;
-		.header-center-left{
-			line-height: 34px;
-			float: left;
-		}
-		.header-center-right{
-			float: right;
-			line-height: 34px;
-			span{
-				float: left;
-				padding-right:9px;
-				display: inline-block;
-				color:#ccc;
-				img{
-					margin-top: 8px;
-				}
-				a{
-					padding-right:10px;
-				}
-			}
-		}
-	}
+}
+.header-center{
+	height:34px;
+}
+.header-center-left{
+	line-height: 34px;
+	float: left;
+}
+.header-center-right{
+	float: right;
+	line-height: 34px;
+
+}
+.header-center-right span{
+	float: left;
+	padding-right:9px;
+	display: inline-block;
+	color:#ccc;
+}
+.header-center-right span img{
+	margin-top: 8px;
+}
+.header-center-right span a{
+	padding-right:10px;
 }
 .top-logo,.top-select,.top-info-car {
 	float: left;
@@ -68,13 +65,13 @@
 .top-logo{
 	padding-top: 15px;
 	padding-right: 100px;
-	a{
-		display: inline-block;
-	}
-	img{
-		width: 300px;
-		height: 60px;
-	}
+}
+.top-logo a{
+	display: inline-block;
+}
+.top-logo img{
+	width: 300px;
+	height: 60px;
 }
 .top-select-sel-hot {
 	float: left;
@@ -82,10 +79,10 @@
 	color: #666;
 	padding-top: 7px;
 	background-color: #fff;
-	a{
-		color: #666;
-		padding-right: 8px;
-	}
+}
+.top-select-sel-hot a{
+	color: #666;
+	padding-right: 8px;
 }
 .top-info-car {
 	background: url(../image/cart.png) no-repeat 20px 50%;
@@ -221,4 +218,8 @@
 	overflow: hidden;
 	position: relative;
 	z-index: 2;
+}
+.main-width{
+	width:1200px;
+	margin:0 auto;
 }
