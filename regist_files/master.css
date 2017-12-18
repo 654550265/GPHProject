@@ -1,0 +1,118 @@
+/*殷琦*/
+/***********base**************/
+img,button{ border:none; vertical-align:middle;}
+*html{background-image:url(about:blank); background-attachment:fixed;}
+ul,ol,li{ list-style:none;}
+body,h1,h2,h3,h4,h5,h6,div,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea,td,th{font:12px/1.2 "microsoft yahei",\5b8b\4f53,Arial, Helvetica, sans-serif;}
+input,textarea,button,select{ outline:none;vertical-align:middle;font-weight:normal; height:22px; line-height:22px;}
+textarea{ height:80px;}
+input:focus,textarea:focus{ outline:none;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}/*html5 tag*/
+img,p,table,td,th,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ol,ul,li,label{vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+a{ text-decoration:none;}
+a:visited{ text-decoration:none;}
+a:hover{ text-decoration:none;outline:none;}
+a:active, a:focus {outline:none;}
+.clear{display:block;float:none;clear:both;overflow:hidden;visibility:hidden;width:0;height:0;background:none;border:0;font-size:0}
+.c:after{ clear:both; display:block;content:"."; height:0; visibility:hidden}/*闭合浮动*/
+.right{float: right;}
+.left{float: left;}
+.hide{display: none;}
+.bold{font-weight: bold;}
+.abso{position: absolute;}
+.center{text-align: center;}
+/*内容*/
+.tx01,.tx02,.tx03,.tx04,.tx05,.tx06,.tx07,.tx08,.tx09,.tx10,.tx11,.tx13,.tx14,.tx15{width: 950px;height: 85px;display: block;position: relative;}
+.tx16,.tx17,.tx18,.tx19,.tx20,.tx21,.tx22,.tx23,.tx24,.tx25,.tx26,.tx28,.tx29,.tx30{width: 950px;height: 85px;display: block;position: relative;}
+.tx31,.tx32,.tx33,.tx34,.tx35,.tx36,.tx37,.tx38,.tx39,.tx40,.tx41,.tx42,.tx43,.tx44{width: 950px;height: 85px;display: block;position: relative;}
+.tx45,.tx46,.tx47,.tx48,.tx49,.tx50{width: 950px;height: 85px;display: block;position: relative;}
+
+
+.tx01{background: url(../images/1.jpg) no-repeat;}
+.tx02{background: url(../images/2.jpg) no-repeat;}
+.tx03{background: url(../images/3.jpg) no-repeat;}
+.tx04{background: url(../images/4.jpg) no-repeat;}
+.tx05{background: url(../images/5.jpg) no-repeat;}
+.tx06{background: url(../images/6.jpg) no-repeat;}
+.tx07{background: url(../images/7.jpg) no-repeat;}
+.tx08{background: url(../images/8.jpg) no-repeat;}
+.tx09{background: url(../images/9.jpg) no-repeat;}
+.tx10{background: url(../images/10.jpg) no-repeat;}
+.tx11{background: url(../images/5g.jpg) no-repeat;}
+.tx12{background: url(../images/12.jpg) no-repeat;}
+.tx13{background: url(../images/13.jpg) no-repeat;}
+.tx14{background: url(../images/14.jpg) no-repeat;}
+.tx15{background: url(../images/15.jpg) no-repeat;}
+.tx16{background: url(../images/16.jpg) no-repeat;}
+.tx17{background: url(../images/17.jpg) no-repeat;}
+.tx18{background: url(../images/18.jpg) no-repeat;}
+.tx19{background: url(../images/19.jpg) no-repeat;}
+.tx20{background: url(../images/20.jpg) no-repeat;}
+.tx21{background: url(../images/21.jpg) no-repeat;}
+.tx22{background: url(../images/22.jpg) no-repeat;}
+.tx23{background: url(../images/23.jpg) no-repeat;}
+.tx24{background: url(../images/24.jpg) no-repeat;}
+.tx25{background: url(../images/25.jpg) no-repeat;}
+.tx26{background: url(../images/26.jpg) no-repeat;}
+.tx27{background: url(../images/27.jpg) no-repeat;}
+.tx28{background: url(../images/28.jpg) no-repeat;}
+.tx29{background: url(../images/29.jpg) no-repeat;}
+.tx30{background: url(../images/30.gif) no-repeat;}
+.tx31{background: url(../images/31.jpg) no-repeat;}
+.tx32{background: url(../images/32.jpg) no-repeat;}
+.tx33{background: url(../images/33.gif) no-repeat;}
+.tx34{background: url(../images/34.gif) no-repeat;}
+.tx35{background: url(../images/35.jpg) no-repeat;}
+.tx36{background: url(../images/36.jpg) no-repeat;}/*new */
+.tx37{background: url(../images/37.jpg) no-repeat;}/*new */
+.tx38{background: url(../images/38.jpg) no-repeat;}/*new */
+.tx39{background: url(../images/39.jpg) no-repeat;}/*0321 智能配件*/
+.tx40{background: url(../images/40.jpg) no-repeat;}/*0322 嗨卡充值优惠*/
+.tx41{background: url(../images/41.jpg) no-repeat;}/*0330 家庭wifi问卷*/
+.tx42{background: url(../images/42.jpg) no-repeat;}/*0407 全家嗨*/
+.tx43{background: url(../images/43.jpg) no-repeat;}/*0726 嗨无限*/
+.tx44{background: url(../images/44.jpg) no-repeat;}/*0726 无限包*/
+.tx45{background: url(../images/45.jpg) no-repeat;}/*1108天猫旗舰店*/
+.tx46{background: url(../images/46.jpg) no-repeat;}/*1108小日卡*/
+.tx47{background: url(../images/47.jpg) no-repeat;}/*1108大促*/
+.tx48{background: url(../images/48.jpg) no-repeat;}/*1122不限量*/
+.tx49{background: url(../images/49.jpg) no-repeat;}/*1128 199号段*/
+.tx50{background: url(../images/50.jpg) no-repeat;}/*1128 嗨无限体验*/
+
+
+
+
+.redbg{background:url(../images/redbgg.jpg) no-repeat;width: 271px;height: 70px;position: absolute;right: 318px;top: 7px;}
+.redbg span{font-size: 29px;font-weight: bold;position: absolute;right: 32px;text-align: center;top: 30px;color: #ffde00;display: block;width: 37px;}
+
+
+
+
+.fliterbg{background: url(../images/bg.png) no-repeat;width: 295px;height: 75px;display: inline-block;padding: 20px 0 0;margin-left: 15px;}
+/*2016-09-29 修改*/
+.tisu{background: url(../images/1.png) no-repeat;width: 80px;height: 25px;display: block;}
+.choz{background: url(../images/2.png) no-repeat;width: 80px;height: 25px;display: block;margin-left: 15px;}
+/*2016-10-13 注释*/
+
+/*
+.btn01,.btn02,.btn03{width: 80px;height: 25px;display: block;}
+.btn01{background: url(../images/1.png) no-repeat;}
+.btn02{background: url(../images/2.png) no-repeat;margin-left: 5px;}
+.btn03{background: url(../images/3.png) no-repeat;margin-left: 5px;}
+*/
+.col1{color: #333;}
+.col2{color: #ff4800;}
+.f14{font-size: 14px;}
+.mt10{margin-top: 10px;}
+.aa{display: inline-block;width: 640px;height: 85px;position: absolute;top: 0;right: 0;}
+/*2016-09-29 修改*/
+.duihuan{position: absolute;right: 73px;top: 31px;display: block;}
+.prl20{padding: 0 20px;}
+
+/*2016-10-13 添加按钮背景*/
+.btn{border-radius: 50px;padding: 5px 0;width: 80px;display: block;font-size: 13px;text-align: center;font-family: "微软雅黑";color: #fff;}
+.btn01{background: #0090eb;}
+.btn02{background: #eb8500;margin-left: 5px;}
+.btn03{background: #eb0011;margin-left: 5px;}

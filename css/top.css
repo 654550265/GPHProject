@@ -1,7 +1,3 @@
-.main-width{
-	width:1200px;
-	margin:0 auto;
-}
 .header{
 	width:100%;
 	height: 34px;
@@ -222,4 +218,8 @@
 	overflow: hidden;
 	position: relative;
 	z-index: 2;
+}
+.main-width{
+	width:1200px;
+	margin:0 auto;
 }

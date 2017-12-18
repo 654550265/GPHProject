@@ -1,0 +1,564 @@
+.shop-rate {
+    width: 1200px;
+    float: left;
+    margin-top: 20px;
+    height: 48px;
+    background: url(../image/confirm-head.jpg) no-repeat left top;
+}
+/*label{*/
+    /*display: inline-block;*/
+/*}*/
+.confirm-main-type, .confirm-main-sel, .confirm-main-sel span, .confirm-main-adds, .confirm-main-adds ul, .confirm-main-adds ul li {
+    float: left;
+}
+.confirm-main {
+    margin-top: 60px;
+}
+.confirm-main-sel {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+.m15 {
+    margin-left: 15px;
+}
+.confirm-main-sel {
+    width: 1198px;
+}
+.confirm-main-type {
+    width: 60px;
+    height: 54px;
+    line-height: 54px;
+    color: #de0539;
+    font-weight: bold;
+    padding-left: 30px;
+    float: left;
+}
+.confirm-main-intro {
+    width: 1098px;
+    float: left;
+    line-height: 54px;
+}
+.confirm-main-sel span.f1 {
+    color: #333;
+    font-weight: bold;
+}
+.confirm-main-sel span.l1 {
+    padding-left: 20px;
+}
+.confirm-main-sel span.f2 {
+    color: #0000EE;
+}
+.confirm-main-sel span.f2 a, .confirm-main-adds li label a {
+    text-decoration: none;
+}
+.m-30 {
+    margin-top: 30px;
+}
+.m-top30 {
+    margin-top: 30px;
+}
+.confirm-main-order {
+    margin-top: 10px;
+}
+.confirm-main-order {
+    border: 1px solid #D4D4D4;
+    border-bottom: 0px;
+}
+.confirm-main-order, .confirm-main-order-title, .confirm-main-order-title ul, .confirm-main-order-title ul li, .confirm-main-order-body, .confirm-main-order-body ul, .confirm-main-order-body ul li {
+    float: left;
+}
+.confirm-main-order, .confirm-main-order-title, .confirm-main-order-body, .confirm-main-order-body ul {
+    width: 1198px;
+}
+.confirm-main-order-title {
+    border-bottom: 1px solid #D4D4D4;
+}
+.confirm-main-order-title {
+    height: 44px;
+}
+.confirm-main-order-title ul li.a, .confirm-main-order-title ul li.a label, .confirm-main-order-body ul li.a, .confirm-main-order-body ul li.a label {
+    width: 598px;
+    text-align: left;
+}
+.confirm-main-order-title ul li {
+    line-height: 44px;
+}
+.list-name {
+    color: #de0539;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+.confirm-main-order-title ul li.b, .confirm-main-order-title ul li.b label, .confirm-main-order-body ul li.b, .confirm-main-order-body ul li.b label {
+    width: 200px;
+}
+.confirm-main-order-title ul li.c, .confirm-main-order-title ul li.c label, .confirm-main-order-body ul li.c, .confirm-main-order-body ul li.c label {
+    width: 200px;
+}
+.confirm-main-order-title ul li.d, .confirm-main-order-title ul li.d label, .confirm-main-order-body ul li.d, .confirm-main-order-body ul li.d label {
+    width: 200px;
+}
+.confirm-title-name {
+    width: 1178px;
+    float: left;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.confirm-main-order-body ul li.a img, .confirm-main-order-body ul li.a a {
+    float: left;
+}
+.confirm-main-order-body ul li.a img {
+    width: 100px;
+    height: 100px;
+    margin-top: 14px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+.confirm-main-order-body ul li.a a.b {
+    line-height: 150%;
+    width: 470px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.confirm-main-order-body ul li.a a.b span.title {
+    height: 35px;
+    overflow: hidden;
+    color: #666;
+}
+.confirm-main-order-body ul li.a a.b span {
+    width: 470px;
+    float: left;
+}
+.confirm-main-order-body ul li.a a.b span.goodno-model-brand {
+    color: #999;
+    padding-top: 2px;
+}
+.confirm-main-order-body ul li.b label {
+    line-height: 130px;
+}
+.confirm-main-order-body ul li.c label.c_a {
+    font-size: 14px;
+    color: #de0539;
+    padding-top: 45px;
+}
+.confirm-main-order-body ul li.c label.c_a, .confirm-main-order-body ul li.c label.c_b {
+    float: left;
+    width: 125px;
+    padding-left: 75px;
+    text-align: left;
+    font-weight: bold;
+}
+.confirm-main-order-body ul li.c label.c_b {
+    text-decoration: line-through;
+}
+.confirm-main-order-body ul li.d label {
+    line-height: 130px;
+}
+.confirm-main-order-body ul {
+    border-bottom: 1px solid #d4d4d4;
+}
+.confirm-main-shop-box, .confirm-main-shop-price span, .confirm-main-price-d, .confirm-main-price-d span, .confirm-main-price-d label {
+    float: left;
+}
+.confirm-main-price-d {
+    width: 1198px;
+    margin-top: 10px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding: 15px 0px;
+}
+.confirm-main-price-d span {
+    float: right;
+    width: 1138px;
+    padding-right: 60px;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+.confirm-main-price-d label {
+    width: 75px;
+    text-align: right;
+    float: none;
+    display: inline-block;
+}
+.confirm-main-price-d label.ty {
+    width: 120px;
+}
+.confirm-main-price-d label.tl {
+    width: 90px;
+}
+.confirm-main-price-d span.pay-amount {
+    background-color: #F4F4F4;
+    line-height: 55px;
+}
+.confirm-main-price-d label.a {
+    font-size: 14px;
+}
+.confirm-main-price-d label.b {
+    color: #de0539;
+    font-weight: bold;
+}
+.confirm-main-price-d label.a {
+    font-size: 14px;
+}
+.return-cart {
+    padding-left: 22px;
+    line-height: 32px;
+    height: 32px;
+    background: url(../image/return.jpg) no-repeat left 50%;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.confirm-main-submit {
+    width: 120px;
+    height: 32px;
+    background-color: #DE0539;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+}
+.center{
+    text-align: center;
+}
+.pro-type {
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+    background-color: #E7E7E7;
+    margin: 50px auto 0px;
+}
+.footer-jushu {
+    width: 100%;
+    float: left;
+    background-color: #2F323F;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.foot-lomo {
+    text-align: center;
+    margin-top: 20px;
+}
+.foot-lomo a {
+    color: #666;
+}
+.foot-link{
+    overflow: hidden;
+}
+.foot-link span.a {
+    width: 100px;
+    text-align: right;
+    padding-top: 12px;
+}
+.foot-link span {
+    float: left;
+    color: #666;
+    padding-top: 10px;
+}
+.foot-link span.b {
+    width: 1000px;
+    line-height: 180%;
+    overflow: hidden;
+}
+.foot-link span {
+    float: left;
+    color: #666;
+    padding-top: 10px;
+}
+.foot-link span a {
+    color: #666;
+    padding: 0px 6px;
+    float: left;
+}
+.foot-lomo {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer {
+    margin: 0px;
+}
+.footer {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-cen dl dt {
+    margin-bottom: 6px;
+}
+.header, .menu, .banner, .footer{
+    width: 100%;
+    margin: 0px auto;
+}
+.footer-cen dl dt.fop-1 {
+    background: url(../image/icon4.png) no-repeat left 50%;
+    text-indent: 16px;
+}
+.footer-cen dl, .footer-cen dl dt, .footer-cen dl dd {
+    width: 130px;
+    float: left;
+}
+.footer-cen dl {
+    border-right: 1px solid #f0f0f0;
+    margin-left: 50px;
+    margin-right: 5px;
+    line-height: 180%;
+    margin-top: 30px;
+}
+.footer-cen{
+    overflow: hidden;
+}
+.footer-cen dl dt.fop-2 {
+    background: url(../image/icon5.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer-cen dl dt.fop-3 {
+    background: url(../image/icon6.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer-cen dl dt.fop-4 {
+    background: url(../image/icon7.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer .contact-us {
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer .contact-way {
+    float: left;
+    display: block;
+    margin-left: 12px;
+}
+.contact-img {
+//dispay: block;
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+.contact-way span {
+    display: block;
+}
+.span-way1 {
+    font-size: 16px;
+    color: #333;
+}
+.contact-way span {
+    display: block;
+}
+.span-way2 {
+    font-size: 12px;
+    color: #666;
+}
+.contact-tel{
+    overflow: hidden;
+}
+.footer .footer-tel {
+    float: right;
+    margin-top: 15px;
+}
+.confirm-main-add-address {
+    padding-left: 150px;
+}
+.confirm-main-add-address, .confirm-main-add-address ul, .confirm-main-add-address ul li {
+    width: 1050px;
+}
+.confirm-main-add-address, .confirm-main-add-address ul, .confirm-main-add-address ul li, .confirm-main-add-address ul li span, .confirm-main-add-address ul li label, .confirm-main-text, .confirm-main-radio, .confirm-main-button, .confirm-main-invoice {
+    float: left;
+}
+.confirm-main-add-address ul li {
+    margin-top: 10px;
+}
+.confirm-main-add-address ul li span {
+    width: 80px;
+    text-align: right;
+    height: 24px;
+    line-height: 24px;
+}
+.confirm-main-add-address ul li span font {
+    color: #ff0000;
+}
+.t1 {
+    min-width: 150px;
+}
+.i10 {
+    text-indent: 10px;
+}
+.confirm-main-text {
+    height: 22px;
+    border: 1px solid #C0C0C0;
+    line-height: 22px;
+    margin-right: 10px;
+    text-indent: 6px;
+}
+.t2 {
+    min-width: 100px;
+}
+.confirm-main-text {
+    height: 22px;
+    border: 1px solid #C0C0C0;
+    line-height: 22px;
+    margin-right: 10px;
+    text-indent: 6px;
+}
+.confirm-main-radio {
+    margin-top: 5px;
+}
+.confirm-main-add-address ul li label {
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.confirm-main-button {
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 24px;
+    border: 1px solid #D3E3EF;
+    background-color: #F3F7FD;
+    float: left;
+    line-height: 24px;
+    text-align: center;
+    color: #555;
+    border-radius: 12px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.confirm-main-invoice {
+    width: 1138px;
+    float: left;
+    margin-left: 30px;
+    border-top: 1px solid #ccc;
+}
+.confirm-main-invoice-lip {
+    width: 60px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 11px;
+}
+.confirm-main-invoice-lio {
+    width: 1038px;
+    float: left;
+}
+.c-h {
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.confirm-main-invoice-lio label {
+    padding-top: 1px;
+    float: left;
+}
+.t12 {
+    margin-top: 12px;
+}
+.m5 {
+    margin-left: 5px;
+}
+.simsun {
+    font-family: "SimSun";
+}
+.confirm-main-invoice-sel, .confirm-main-invoice-sel ul li {
+    width: 1075px;
+}
+.confirm-main-invoice-sel-no-bor ul {
+    border: 0;
+    margin-left: 0px;
+}
+.confirm-main-invoice-cont, .confirm-main-invoice-type, .confirm-main-invoice-type label, .confirm-main-invoice-sel, .confirm-main-invoice-sel ul, .confirm-main-invoice-sel ul li, .confirm-main-invoice-sel ul li span, .confirm-main-invoice-sel ul li label {
+    float: left;
+}
+.confirm-main-invoice-sel ul li {
+    margin-top: 5px;
+}
+.confirm-main-invoice-sel ul li span, .confirm-main-invoice-sel ul li label {
+    color: #666;
+}
+.m-left100 {
+    margin-left: 100px;
+}
+.t6 {
+    margin-top: 6px;
+}
+.pl5 {
+    padding-left: 5px;
+}
+.t5 {
+    margin-top: 5px;
+}
+.confirm-main-invs {
+    width: 900px;
+    margin-left: 145px;
+    margin-top: 15px;
+}
+.confirm-main-invs {
+    border: 1px dashed #ccc;
+}
+.confirm-main-adds {
+    padding-bottom: 10px;
+}
+.confirm-main-adds li label.m {
+    padding-right: 0px;
+}
+.confirm-main-adds li span, .confirm-main-adds li label.m {
+    min-width: 40px;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.confirm-main-invoice-lip {
+    width: 60px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 11px;
+}
+.confirm-main-invoice-lio {
+    width: 1038px;
+    float: left;
+}
+.ml110 {
+    margin-left: 200px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.confirm-main-invoice-sel-no-bor ul {
+    border: 0;
+    margin-left: 0px;
+}
+.confirm-main-invoice-sel-no-bor ul.u {
+    margin-left: 125px;
+}
+.confirm-main-invoice-sel ul.u li {
+    margin-top: 10px;
+}
+.confirm-main-invoice-sel, .confirm-main-invoice-sel ul li {
+    width: 1075px;
+}
+.confirm-main-invoice-sel ul li span.a {
+    width: 100px;
+    text-align: right;
+    margin-top: 4px;
+}
+.confirm-main-invoice-sel ul li span font {
+    color: #ff0000;
+}
+.confirm-main-text {
+    height: 22px;
+    border: 1px solid #C0C0C0;
+    line-height: 22px;
+    margin-right: 10px;
+    text-indent: 6px;
+}
+.cbox {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.lz {
+    color: #666;
+    line-height: 21px;
+    padding-left: 6px;
+}

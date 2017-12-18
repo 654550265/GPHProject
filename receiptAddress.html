@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/right-black-fixed.css">
+    <link rel="stylesheet" href="css/perCenter.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/PersonalCenter.js"></script>
+    <script src="js/jquery-flash-2.0.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/receiptAddress.js"></script>
+    <!--<script src="js/public.js"></script>-->
+    <title>收货地址</title>
+    <script>
+        var menuShow ;
+    </script>
+    <script src="js/order.js"></script>
+
+</head>
+<body>
+<div class="header">
+    <div class="header-center main-width">
+        <span class="header-center-left">您好！欢迎光临万千工品商城！</span>
+        <div class="header-center-right">
+            <span>
+                <a href="#">请登录</a>|
+            </span>
+            <span>
+                <a href="#">免费注册</a>|
+            </span>
+            <span>
+                <a href="#">用户中心</a>|
+            </span>
+            <span>
+                <img src="image/tel.png">
+            </span>
+        </div>
+    </div>
+</div>
+<div class="com-bo-fff">
+    <div class="main-width top-sel">
+        <div class="top-logo">
+            <a href="#">
+                <img src="image/logo_mall.png">
+            </a>
+        </div>
+        <div class="top-select J_searchWrapper">
+            <input type="text" class="top-select-sel-text J_t_searchOne" placeholder="请输入您要搜索的产品名称、品牌或型号">
+            <input type="button" class="top-select-but ft-16 cursor J_search" value="搜索">
+            <div class="top-select-sel-hot J_hot_search">
+                热门搜索:
+                <a href="#">3M口罩</a>
+                <a href="#">3M口罩</a>
+            </div>
+        </div>
+        <div class="top-info cursor J_t_showCart">
+            <a href="#" class="top-info-car">我的购物车
+                <div class="top-info-go-pay J_t_num">0</div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="menu ft-yh">
+    <div class="main-width">
+        <ul>
+            <li class="nav J_nav">全部商品分类
+                <div class="nav-main">
+                    <div class="nav-main-left hide">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="image/ic_50.png">
+                                    电器控制及工业自动化
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-main-right">
+
+                    </div>
+                </div>
+            </li>
+            <li class="a">
+                <a href="">首页</a>
+            </li>
+            <li class="a">
+                <a href="">雾霾专区</a>
+            </li>
+            <li class="a">
+                <a href="">双11狂欢专区</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="brand-menu brand-top">
+    <div class="main-width brand-menu-text bread-top-main">
+        <a href="#">首页</a>>
+        <a href="#">用户中心</a>
+    </div>
+</div>
+<div class="main tyBackground padding_top20 padding_bottom50">
+    <div class="main_zh">
+        <div class="personal_left">
+            <dl>
+                <dt>订单中心</dt>
+                <dd id="order_l1">
+                    <a href="#" class="per_l_1">我的订单></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>我的收藏</dt>
+                <dd id="order_l2"  >
+                    <a href="#" class="per_l_2">收藏的商品</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>基本信息</dt>
+                <dd id="order_l3">
+                    <a href="" class="per_l_3">个人信息</a>
+                </dd>
+                <dd id="order_l4" class="ons">
+                    <a href="" class="per_l_4">收货地址</a>
+                </dd>
+                <dd id="order_l5">
+                    <a href="" class="per_l_5">发票信息</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>安全设置</dt>
+                <dd id="order_l6">
+                    <a href="" class="per_l_7">安全中心</a>
+                </dd>
+                <dd id="order_l7">
+                    <a href="" class="per_l_6">修改密码</a>
+                </dd>
+            </dl>
+
+        </div>
+
+
+
+        <div class="right_border">
+            <div class="address_right fl padding-top-10">
+                <div class="ty_head fl">
+                    收货地址
+                </div>
+                <div class="address_info fl">
+                    <div class="address_i_head fl">
+                        <a href="javascript:;" class="newAddress fl">新增收货地址</a>
+                        <span>您已经创建<font class="numst"></font>个收货地址，最多可创建<font>20</font>个</span>
+                    </div>
+                    <div class="addressList fl">
+                        <div class="address_info_l fl" id="27938">
+                            <ul>
+                                <li>
+                                    <span>收货人：</span>
+                                    <font>ads </font>
+                                    <a href="javascript:;" class="">默认地址</a>
+                                </li>
+                                <li>
+                                    <span>所在地区：</span>
+                                    <font>上海市 市辖区 金山区 </font>
+                                </li>
+                                <li>
+                                    <span>详细地址：</span>
+                                    <font>sffsd</font>
+                                </li>
+                                <li>
+                                    <span>手机：</span>
+                                    <font>177****5227</font>
+                                </li>
+                                <li>
+                                    <span>邮编：</span>
+                                    <font></font>
+                                </li>
+                            </ul>
+                            <a href="javascript:;" class="closedAddress">×</a>
+                            <a href="javascript:;" class="editeAddress">编辑</a>
+                            <a href="javascript:;" class="editemoren hide">设为默认</a>
+                        </div>
+                        <div class="address_info_l fl" id="28972">
+                            <ul>
+                                <li>
+                                    <span>收货人：</span>
+                                    <font>ads </font>
+                                    <a href="javascript:;" class="hide">默认地址</a>
+                                </li>
+                                <li>
+                                    <span>所在地区：</span>
+                                    <font>上海市 市辖区 金山区 </font>
+                                </li>
+                                <li>
+                                    <span>详细地址：</span>
+                                    <font>sffsd</font>
+                                </li>
+                                <li>
+                                    <span>手机：</span>
+                                    <font>177****5227</font>
+                                </li>
+                                <li>
+                                    <span>邮编：</span>
+                                    <font></font>
+                                </li>
+                            </ul>
+                            <a href="javascript:;" class="closedAddress">×</a>
+                            <a href="javascript:;" class="editeAddress">编辑</a>
+                            <a href="javascript:;" class="editemoren">设为默认</a>
+                        </div>
+                        <div class="address_info_l fl" id="28972">
+                            <ul>
+                                <li>
+                                    <span>收货人：</span>
+                                    <font>ads </font>
+                                    <a href="javascript:;" class="hide">默认地址</a>
+                                </li>
+                                <li>
+                                    <span>所在地区：</span>
+                                    <font>上海市 市辖区 金山区 </font>
+                                </li>
+                                <li>
+                                    <span>详细地址：</span>
+                                    <font>sffsd</font>
+                                </li>
+                                <li>
+                                    <span>手机：</span>
+                                    <font>177****5227</font>
+                                </li>
+                                <li>
+                                    <span>邮编：</span>
+                                    <font></font>
+                                </li>
+                            </ul>
+                            <a href="javascript:;" class="closedAddress">×</a>
+                            <a href="javascript:;" class="editeAddress">编辑</a>
+                            <a href="javascript:;" class="editemoren">设为默认</a>
+                        </div>
+                    </div>
+
+
+                    <div class="address_i_head fl padding-top-10">
+                        <a href="javascript:;" class="newAddress fl">新增收货地址</a>
+                        <span>您已经创建<font class="numst"></font>个收货地址，最多可创建<font>20</font>个</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div>
+
+<!-- 添加地址-->
+<div class="addAddress fl hide">
+    <div class="address_top fl">
+        <font>编辑收货地址</font>
+        <a href="javascript:;" class="address_close fr"></a>
+    </div>
+    <div class="address_get">
+        <li><span><font>*</font>收货人姓名：</span>
+            <input type="text" class="input_text fl input_width2 consignee" /></li>
+        <li class="consignee_n erro_Address hide"><span><font></font>&nbsp;</span>×请填写收货人姓名</li>
+        <li><span><font>*</font>所在地区：</span>
+            <select class="addressSelect fl provinceId">
+
+            </select>
+            <select class="addressSelect fl cityId">
+
+            </select>
+            <select class="addressSelect fl areaId">
+
+            </select>
+            <select class="addressSelect fl townId" style="margin-top:10px;display:none;">
+
+            </select>
+        </li>
+        <li class="pca_n erro_Address hide"><span><font></font>&nbsp;</span>×请填写所在地区</li>
+        <li><span><font>*</font>详细地址：</span><input type="text" class="address input_text fl input_width3" /></li>
+        <li class="address_n erro_Address hide"><span><font></font>&nbsp;</span>×请填写详细地址</li>
+        <li><span><font>*</font>手机号码：</span><input type="text" class="mobile input_text fl input_width2" /></li>
+        <li class="mobile_n erro_Address hide"><span><font></font>&nbsp;</span>×请填写正确的手机号码</li>
+        <!-- <li><span>固定电话：</span>
+        <input type="text" class="input_text fl input_width2" />
+        </li> -->
+        <li><span>邮编：</span><input type="text" class="postCode input_text fl input_width2" /></li>
+        <li><span>默认地址：</span><input type="checkbox" class="fl cbox" name="cbox" /><font class="fl lz">设为默认地址</font></li>
+        <li><span>&nbsp;</span><input type="button" value="保存" class="fl seachOrder sureAddress" /></li>
+    </div>
+</div>
+
+<div class="pro-type center">
+    <img src="image/de_pro.png" alt="">
+</div>
+<div class="footer">
+    <div class="main-width footer-cen">
+        <dl>
+            <dt class="fop-1">
+                <a href="#">购物指南</a>
+            </dt>
+            <dd>
+                <a href="#">· 购物流程</a>
+            </dd>
+            <dd>
+                <a href="#">· 免费注册</a>
+            </dd>
+            <dd>
+                <a href="#">· 如何支付</a>
+            </dd>
+            <dd>
+                <a href="#">· 订单管理</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt class="fop-2">
+                <a href="#">服务政策</a>
+            </dt>
+            <dd>
+                <a href="#">· 关于退换货</a>
+            </dd>
+            <dd>
+                <a href="#">· 关于发票</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt class="fop-3">
+                <a href="#">常见问题</a>
+            </dt>
+            <dd>
+                <a href="#">· 忘记密码</a>
+            </dd>
+            <dd>
+                <a href="#">· 投诉建议</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt class="fop-4">
+                <a href="#">关于我们</a>
+            </dt>
+            <dd>
+                <a href="#">· 走进工品汇</a>
+            </dd>
+            <dd>
+                <a href="#">· 成长历程</a>
+            </dd>
+            <dd>
+                <a href="#">· 联系方式</a>
+            </dd>
+        </dl>
+        <div class="contact-us">
+            <div class="contact-tel">
+                <img src="image/icon_01.jpg" class="contact-img">
+                <p class="contact-way">
+                    <span class="span-way1">0510-82392447</span>
+                    <span class="span-way2">传真 0510-82392447</span>
+                </p>
+            </div>
+            <div class="contact-tel" style="margin-top:12px">
+                <img src="image/icon_02.png" class="contact-img">
+                <p class="contact-way">
+                    <span class="span-way1">工作时间</span>
+                    <span class="span-way2">周一到周六 8:30-17:30</span>
+                </p>
+            </div>
+        </div>
+        <div class="footer-tel">
+            <a href="#">
+                <img src="image/f_tel.png">
+            </a>
+        </div>
+    </div>
+    <div class="footer-jushu">
+        <div class="main-width foot-lomo">
+            Copyright? 2012-2022 版权所有
+            <a href="#">无锡*****有限公司</a>
+            <a href="#">苏ICP证B2-2014</a>
+            <a href="#">苏ICP备1208号-3</a>
+        </div>
+        <div class="main-width foot-link">
+            <span class="a">友情链接</span>
+            <span class="b">
+                <a href="#">ABB官网</a>
+                <a href="#">施耐德官网</a>
+                <a href="#">西门子官网</a>
+                <a href="#">德力西官网</a>
+                <a href="#">欧姆龙官网</a>
+                <a href="#">费斯托官网</a>
+                <a href="#">SMC官网</a>
+                <a href="#">亚德客官网</a>
+                <a href="#">3M官网</a>
+                <a href="#">代尔塔官网</a>
+                <a href="#">霍尼韦尔官网</a>
+                <a href="#">梅斯安官网</a>
+                <a href="#">世达官网</a>
+                <a href="#">博世官网</a>
+            </span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="main-width foot-lomo">
+            <a href="" id="___szfw_logo___">
+                <img src="image/cert.png">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="rit-call">
+    <div class="rit-call-main J_leaveZx">
+        <a href="#" class="info mj" id="my">我的</a>
+        <a href="#" class="chart J_ritZx mj" id="zixun">咨询</a>
+        <a href="#" class="cart mj" id="shopcar">
+            <span class="rit-cart-title">购物车</span>
+            <span class="rit-cart-num J_t_num J_inCar">0</span>
+        </a>
+        <div class="rit-call-kf hide J_showZx">
+            <div class="rit-call-kf-box">
+                <a href="#" class="J_qq_click">
+                    <img src="image/qq.png" id="2850689472">
+                    <label>低压电气咨询</label>
+                </a>
+                <a href="#" class="J_qq_click no-bor">
+                    <img src="image/qq.png" id="2850689473">
+                    <label>劳保工具咨询</label>
+                </a>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="rit-call-bottom J_ritBtoomOp">
+        <a href="#" class="likestore" id="likestore"></a>
+        <a href="javascript:;" class="saoma" id="saoma"></a>
+        <a href="#" class="return-top" id="return-top">顶部</a>
+        <div class="sm-box hide J_smShow">
+            <img src="image/sm.png">
+        </div>
+    </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

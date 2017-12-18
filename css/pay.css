@@ -1,0 +1,252 @@
+.brand-menu {
+    width: 100%;
+    height: 43px;
+    padding-top: 10px;
+    margin: 0px auto;
+    background: url(../image/brand-menu.jpg) repeat-x left bottom;
+}
+.brand-menu-text {
+    /* font-size: 14px; */
+    text-indent: 20px;
+}
+
+.shop-rate {
+    width: 1200px;
+    float: left;
+    margin-top: 20px;
+    height: 48px;
+    background: url(../image/confirm-head.jpg) no-repeat left top;
+}
+.shop-rate-pay {
+    background: url(../image/confirm-head-pay.jpg) no-repeat left top;
+}
+.main-submit {
+    border: 1px solid #eee;
+}
+.main-submit {
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+.main-submit, .main-submit-title, .main-submit-body {
+    width: 1098px;
+}
+.main-submit, .main-submit-title, .main-submit-body {
+    float: left;
+}
+.main-submit-title {
+    font-size: 16px;
+    color: #333;
+    padding-top: 5px;
+}
+.main-submit-body {
+    margin-top: 20px;
+}
+.main-submit-body ul, .main-submit-body ul li, .main-submit-radio, .main-submit-body ul li label, .main-submit-price, .main-submit-button {
+    float: left;
+}
+.main-submit-body ul li {
+    margin-top: 10px;
+}
+.main-submit-body ul, .main-submit-body ul li {
+    width: 100%;
+}
+.main-submit-radio {
+    margin-top: 18px;
+}
+.cursor {
+    cursor: pointer;
+}
+.main-submit-body ul li label.a {
+    padding-top: 12px;
+    height: 38px;
+}
+.main-submit-body ul li label {
+    width: 150px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 20px;
+}
+.main-submit-body ul li label.b {
+    padding-top: 5px;
+    height: 45px;
+}
+.main-submit-body ul li label.c {
+    line-height: 50px;
+}
+.main-submit-body ul li label {
+    width: 150px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 20px;
+}
+.main-submit-price {
+    width: 100%;
+    text-align: right;
+    color: #333;
+    font-size: 16px;
+}
+.main-submit-price label {
+    color: #F84002;
+    font-size: 22px;
+}
+.main-submit-button {
+    float: right;
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #FF5555;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+
+
+
+.center{
+    text-align: center;
+}
+.main-submit-body ul, .main-submit-body ul li {
+    width: 100%;
+}
+.pro-type {
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+    background-color: #E7E7E7;
+    margin: 50px auto 0px;
+}
+.footer-jushu {
+    width: 100%;
+    float: left;
+    background-color: #2F323F;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.foot-lomo {
+    text-align: center;
+    margin-top: 20px;
+}
+.foot-lomo a {
+    color: #666;
+}
+.foot-link{
+    overflow: hidden;
+}
+.foot-link span.a {
+    width: 100px;
+    text-align: right;
+    padding-top: 12px;
+}
+.foot-link span {
+    float: left;
+    color: #666;
+    padding-top: 10px;
+}
+.foot-link span.b {
+    width: 1000px;
+    line-height: 180%;
+    overflow: hidden;
+}
+.foot-link span {
+    float: left;
+    color: #666;
+    padding-top: 10px;
+}
+.foot-link span a {
+    color: #666;
+    padding: 0px 6px;
+    float: left;
+}
+.foot-lomo {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer {
+    margin: 0px;
+}
+.footer {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-cen dl dt {
+    margin-bottom: 6px;
+}
+.header, .menu, .banner, .footer{
+    width: 100%;
+    margin: 0px auto;
+}
+.footer-cen dl dt.fop-1 {
+    background: url(../image/icon4.png) no-repeat left 50%;
+    text-indent: 16px;
+}
+.footer-cen dl, .footer-cen dl dt, .footer-cen dl dd {
+    width: 130px;
+    float: left;
+}
+.footer-cen dl {
+    border-right: 1px solid #f0f0f0;
+    margin-left: 50px;
+    margin-right: 5px;
+    line-height: 180%;
+    margin-top: 30px;
+}
+.footer-cen{
+    overflow: hidden;
+}
+.footer-cen dl dt.fop-2 {
+    background: url(../image/icon5.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer-cen dl dt.fop-3 {
+    background: url(../image/icon6.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer-cen dl dt.fop-4 {
+    background: url(../image/icon7.png) no-repeat left 50%;
+    text-indent: 20px;
+}
+.footer .contact-us {
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer .contact-way {
+    float: left;
+    display: block;
+    margin-left: 12px;
+}
+.contact-img {
+//dispay: block;
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+.contact-way span {
+    display: block;
+}
+.span-way1 {
+    font-size: 16px;
+    color: #333;
+}
+.contact-way span {
+    display: block;
+}
+.span-way2 {
+    font-size: 12px;
+    color: #666;
+}
+.contact-tel{
+    overflow: hidden;
+}
+.footer .footer-tel {
+    float: right;
+    margin-top: 15px;
+}
