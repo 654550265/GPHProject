@@ -95,7 +95,7 @@
     <div class="detail-goods-left">
         <div class="detail-goods-left-image un-select J_bigImage">
             <img src="image/012a01!450450.jpg">
-            <div class="detail-goods-background J_imgBackgroud">
+            <div class="detail-goods-background J_imgBackgroud" style="display: none">
 
             </div>
         </div>
@@ -159,9 +159,11 @@
                     <label class="a p-top15 m-left20">采购量</label>
                     <div class="detail-goods-right-opera">
                         <span class="J_minNum un-select ft24">-</span>
-                        <input type="text" value="1" class="detail-goods-right-text ft16 J_goodNum">
+                        <input type="text" value="1" class="detail-goods-right-text ft16 J_goodNum" attr-batch="1" attr-least="1">
                         <span class="J_addNum un-select ft24">+</span>
                     </div>
+                    <label class="p-top15 p-left20 color999 J_stock">个</label>
+                    <label class="error J_errors hide p-top10">数量不得小于起订量</label>
                 </div>
             </div>
             <div class="J_buyBox">
@@ -172,6 +174,7 @@
         </div>
     </div>
 </div>
+<div class="detail-goods-image-pos J_hoverImage" style="background-image: url('image/012a01!800800.jpg')"></div>
 <div class="shop-rec J_removeActive">
     <span class="a ft14 fl">相关商品推荐</span>
     <div class="shop-rec-main fl">
@@ -415,6 +418,7 @@
         </div>
     </div>
 </div>
-<script src="js/index.js"></script>
+<!--<script src="js/index.js"></script>-->
+<script src="js/product.js"></script>
 </body>
 </html>
