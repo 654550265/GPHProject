@@ -526,3 +526,361 @@
     float: right;
     margin-top: 15px;
 }
+ul, li, dl, dt, dd, span, label, p, input, select, textarea, button {
+    float: left;
+}
+.search-main ul {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.search-main li.a {
+    width: 80px;
+    position: relative;
+}
+.search-main li {
+    text-align: center;
+    padding: 0px 10px;
+}
+.search-main li.a a {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-top: 10px;
+    float: left;
+}
+.search-main li.a img {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #ECECEC;
+}
+.search-main li.tl {
+    text-align: left;
+}
+.search-main li.lh {
+    line-height: 150%;
+}
+.search-main li.b {
+    width: 382px;
+    padding: 0;
+}
+.search-main li.b a {
+    font-size: 14px;
+    color: #525354;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.search-main li.b a:hover{
+    color:#FF9A21;
+    text-decoration: none;
+}
+.search-main li.b .small_text {
+    width: 100%;
+}
+.search-active {
+    float: left;
+    padding-left: 178px;
+    min-width: 40px;
+    width: 100%;
+}
+.search-main li.e {
+    width: 350px;
+    padding: 0;
+}
+.search-main li.e span {
+    font-weight: bold;
+}
+.search-main li.e span.d label {
+    height: 18px;
+    font-size: 0px;
+    display: block;
+}
+.search-main li.e span.a {
+    color: #ff0000;
+    font-size: 14px;
+}
+.search-main li.e span.a {
+    color: #ff0000;
+    font-size: 14px;
+}
+.search-main li.e span.b {
+    text-decoration: line-through;
+}
+.search-main li.e span.pb {
+    padding-left: 178px;
+    margin-top: 5px;
+}
+.search-main li.e label.c2 {
+    background-color: #FF6E4C;
+}
+.search-main li.e label.hd {
+    width: 16px;
+    height: 17px;
+    color: #fff;
+    line-height: 17px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.search-main li.e label.c9 {
+    background-color: #FF5151;
+}
+.search-main li.e label.hd {
+    width: 16px;
+    height: 17px;
+    color: #fff;
+    line-height: 17px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.search-main li.f {
+    width: 202px;
+    padding: 0px;
+    text-align: left;
+}
+.search-main li.g {
+    width: 148px;
+    padding: 0;
+}
+.search-but {
+    width: 39px;
+    height: 30px;
+    background: url(../image/dg.jpg) no-repeat left top;
+    line-height: 30px;
+    color: #fff;
+}
+.search-text, .search-but {
+    margin-top: 35px;
+}
+.fr {
+    float: right;
+}
+.cursor {
+    cursor: pointer;
+}
+.search-text {
+    width: 36px;
+    height: 28px;
+    border: 1px solid #999;
+    line-height: 28px;
+    text-align: center;
+}
+.search-main li.f a.zxqq {
+    margin-left: -18px;
+}
+.search-main li.f a {
+    width: 45px;
+    text-align: left;
+    background: url(../image/h_dow.png) no-repeat 55px 50%;
+    color: #666;
+    float: left;
+    padding-left: 31px;
+}
+.search-main li.f a.zxqq img {
+    margin-top: 38px;
+}
+.combinationBtn {
+    box-sizing: border-box;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    margin-right: 10px;
+    margin-top: 35px;
+    padding-left: 6px;
+    text-align: left;
+    width: 60px;
+    background: url(../image/comBtn.png) no-repeat;
+}
+.search-main ul.active {
+    background: #ffefe5;
+    border-bottom: 0;
+}
+.combination {
+    border: 1px solid #ffc29c;
+    width: 100%;
+    box-sizing: border-box;
+}
+.combination .title {
+    line-height: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #cc3314;
+}
+.combination .title .title_t.active {
+    background: #cc3314;
+    color: #fff;
+}
+
+.combination .title .title_t {
+    padding: 0 40px;
+    color: #666;
+    font-size: 14px;
+}
+.combination .combinationGoods {
+    padding: 15px 0;
+}
+.combination .combinationName {
+    height: 16px;
+    line-height: 16px;
+}
+.combination .combinationName .title_n.active {
+    color: #cc3314;
+}
+.combination .combinationName .title_n {
+    padding: 0 20px;
+    border-right: 1px solid #aaa;
+    color: #333;
+    font-size: 14px;
+}
+.combinationGoods .goodsBox {
+    padding: 20px;
+}
+.combinationGoods .goods {
+    width: 140px;
+    margin-right: 32px;
+}
+.combinationGoods .goods .img {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+}
+.combinationGoods .goods .img img {
+    width: 100%;
+}
+.combinationGoods .goods .goodsName {
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px 0;
+}
+.combinationGoods .goods .goodsNumber {
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.combinationGoods .goods .price {
+    color: #cc3314;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+}
+.combinationGoods .goods .price .goodsNum {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+    float: none;
+    position: absolute;
+    right: 0;
+}
+.combinationGoods .jia {
+    height: 140px;
+    margin-left: -12px;
+}
+.combinationGoods .jia img {
+    margin-top: 57px;
+}
+.combinationGoods .left {
+    height: 140px;
+    margin: 0 20px;
+}
+.combinationGoods .left img {
+    margin-top: 38px;
+}
+.second_goods {
+    width: 688px;
+    height: 242px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.swiper-wrapper {
+    position: relative;
+}
+.combinationGoods .goods {
+    width: 140px;
+    margin-right: 32px;
+}
+.combinationGoods .goods.swiper-slide {
+    margin-right: 0;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+.combinationGoods .goods .img {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+}
+.combinationGoods .right {
+    height: 140px;
+}
+.combinationGoods .right img {
+    margin-top: 38px;
+}
+.combinationGoods .dengyu {
+    height: 140px;
+    margin: 0 20px;
+}
+.combinationGoods .dengyu img {
+    margin-top: 62px;
+}
+.combinationGoods .saveMoney {
+    color: #333;
+    margin-top: 30px;
+}
+.combinationGoods .saveMoney .setPrice {
+    color: #cc1314;
+}
+.combinationGoods .saveMoney .setPrice span {
+    float: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.combinationGoods .saveMoney .changenum {
+    margin-top: 10px;
+}
+.combinationGoods .saveMoney .changenum label {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+.combinationGoods .saveMoney .changenum input {
+    height: 30px;
+    line-height: 30px;
+    width: 56px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    text-align: center;
+}
+.combinationGoods .saveMoney .changenum label {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+.combinationGoods .saveMoney .btn {
+    color: #fff;
+    background: #cc3314;
+    border-radius: 4px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    width: 92px;
+    margin-top: 10px;
+}
+.combinationBtn.open {
+    background: url(../image/comBtnOpen.png) no-repeat;
+}
