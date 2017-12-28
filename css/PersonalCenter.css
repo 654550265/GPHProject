@@ -69,6 +69,7 @@ a:hover{
     width:200px;
     border-right:1px solid #DE053A;
     padding-top:50px;
+    z-index: 1;
 }
 .box-right{
     position: absolute;

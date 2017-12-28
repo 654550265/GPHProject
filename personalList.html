@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单</title>
+    <link rel="stylesheet" href="css/personalList.css">
+    <link rel="stylesheet" href="css/zane-calendar.css">
+</head>
+<body>
+<div class="top">
+    <a href="#" class="top-name">商务中心</a>
+    <a href="#" class="vip-service">会员服务</a>
+    <a href="#" class="vip-service right-br">网站首页</a>
+</div>
+<div class="box-box">
+    <div class="box-left">
+        <p class="title">订单中心</p>
+        <ul>
+            <li>
+                <a href="">我的订单</a>
+            </li>
+            <li><a href="#">收货单管理</a></li>
+            <li><a href="#">退货单管理</a></li>
+            <li><a href="#">物流管理</a></li>
+        </ul>
+        <p class="title">我的对账单</p>
+        <ul>
+            <li><a href="#">对账单管理</a></li>
+            <li><a href="#">发票管理</a></li>
+        </ul>
+        <p class="title">基本信息</p>
+        <ul>
+            <li><a href="#">个人信息</a></li>
+            <li><a href="#">我的仓库</a></li>
+            <li><a href="#">收货地址</a></li>
+        </ul>
+        <p class="title">积分管理</p>
+        <ul>
+            <li><a href="#">积分换礼</a></li>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">礼品</a></li>
+        </ul>
+    </div>
+    <div class="box-right">
+        <ul class="dingdanlist">
+            <li>
+                <a href="#">订单管理</a>
+            </li>
+        </ul>
+        <div class="put-box">
+            <select name="tiaojian" class="tiaojian">
+                <option value="0">按条件</option>
+                <option value="0">单号</option>
+                <option value="0">金额</option>
+                <option value="0">附加金额</option>
+                <option value="0">附加名称</option>
+                <option value="0">客服</option>
+                <option value="0">备注</option>
+            </select>
+            <input type="text" class="tiaojian-put">
+            <select name="tiaojian" class="tiaojian ma">
+                <option value="0">按条件</option>
+                <option value="0">单号</option>
+                <option value="0">金额</option>
+                <option value="0">附加金额</option>
+                <option value="0">附加名称</option>
+                <option value="0">客服</option>
+                <option value="0">备注</option>
+            </select>
+            <input type="text" class="tiaojian-put">
+            <div class="demo" id="demo21"><div class="input" id="demo19"></div></div>
+            <span>-</span>
+            <div class="demo"><div class="input" id="demo20"></div></div>
+            <button class="search">搜索</button>
+            <span class="order-text">单号:</span>
+            <input type="text" class="order">
+        </div>
+        <div class="dingdan-type">
+            <ul class="dingdan-type-left">
+                <li><a href="#">全部订单</a></li>
+                <li><a href="#">待审核（0）</a></li>
+                <li><a href="#">待付款（0）</a></li>
+                <li><a href="#">带发货（0）</a></li>
+                <li><a href="#">部分发货（0）</a></li>
+                <li><a href="#">全部发货（0）</a></li>
+                <li><a href="#">被拒绝（0）</a></li>
+            </ul>
+            <div class="message-box">
+                <ul class="title-list">
+                    <li class="width-20">订单信息</li>
+                    <li class="width-15">商品信息</li>
+                    <li class="width-15">客户</li>
+                    <li class="width-10">订单金额</li>
+                    <li class="width-15">下单时间</li>
+                    <li class="width-10">付款方式</li>
+                    <li class="width-15">订单状态</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao">订单ID：234<a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao">共2种<a href="#" class="xiangqing">详情</a></li>
+                    <li class="dingdanhao">测试</a></li>
+                    <li class="dingdanhao">￥297.45</a></li>
+                    <li class="dingdanhao">2017-10-30 13:39</li>
+                    <li class="dingdanhao">现金全款</li>
+                    <li class="dingdanhao">待付款</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao">订单ID：234<a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao">共2种<a href="#" class="xiangqing">详情</a></li>
+                    <li class="dingdanhao">测试</a></li>
+                    <li class="dingdanhao">￥297.45</a></li>
+                    <li class="dingdanhao">2017-10-30 13:39</li>
+                    <li class="dingdanhao">现金全款</li>
+                    <li class="dingdanhao">待付款</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao">订单ID：234<a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao">共2种<a href="#" class="xiangqing">详情</a></li>
+                    <li class="dingdanhao">测试</a></li>
+                    <li class="dingdanhao">￥297.45</a></li>
+                    <li class="dingdanhao">2017-10-30 13:39</li>
+                    <li class="dingdanhao">现金全款</li>
+                    <li class="dingdanhao">待付款</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/rili.js"></script>
+<script>
+    (function(){
+        var date=new Date();
+        var year=date.getFullYear();
+        var mon=date.getMonth()+1;
+        var day=date.getDate();
+        zaneDate({
+            elem:'#demo19',
+            showtime:false,
+            begintime:year+'-'+mon+'-'+day,
+        });
+        zaneDate({
+            elem:'#demo20',
+            showtime:false,
+            begintime:year+'-'+mon+'-'+day,
+        })
+    })();
+</script>
+</body>
+</html>
