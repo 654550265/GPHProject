@@ -1,0 +1,103 @@
+.change-box {
+    width: 98%;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.left-title {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+.left-title p {
+    line-height: 45px;
+}
+
+.left-title p span {
+    display: inline-block;
+    color: #DE053A;
+    height: 40px;
+    line-height: 40px;
+}
+
+.left-title .line-128 {
+    line-height: 130px;
+}
+
+.right-title {
+    float: left;
+    margin-left: 20px;
+}
+
+.font-w {
+    font-weight: bold;
+}
+
+.change-nicheng {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #DE053A;
+    margin-left: 20px;
+}
+
+.change-nicheng:hover {
+    color: #fff;
+}
+
+.right-title p {
+    line-height: 45px;
+}
+
+.right-title a img {
+    height: 128px;
+    width: 128px;
+}
+
+.right-title input[type="text"] {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.right-title p label input {
+    margin-top: 20px;
+}
+
+.width-200 {
+    width: 300px;
+}
+
+.right-title p select {
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.woman {
+    margin-left: 10px;
+}
+
+.save {
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #DE053A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.save:hover {
+    cursor: pointer;
+}

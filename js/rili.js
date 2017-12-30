@@ -1,10 +1,35 @@
 "use strict";
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _createClass = function () {
+    function defineProperties(target, props) {
+        for (var i = 0; i < props.length; i++) {
+            var descriptor = props[i];
+            descriptor.enumerable = descriptor.enumerable || false;
+            descriptor.configurable = true;
+            if ("value" in descriptor) descriptor.writable = true;
+            Object.defineProperty(target, descriptor.key, descriptor);
+        }
+    }
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+    return function (Constructor, protoProps, staticProps) {
+        if (protoProps) defineProperties(Constructor.prototype, protoProps);
+        if (staticProps) defineProperties(Constructor, staticProps);
+        return Constructor;
+    };
+}();
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
+    return typeof obj;
+} : function (obj) {
+    return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+};
+
+function _classCallCheck(instance, Constructor) {
+    if (!(instance instanceof Constructor)) {
+        throw new TypeError("Cannot call a class as a function");
+    }
+}
+
 
 /*!
  * zaneDate Javascript Library 1.1.0
@@ -45,9 +70,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
             for (var k in o) {
                 if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
-            }return fmt;
+            }
+            return fmt;
         };
-    };
+    }
+    ;
 
     var doc = document,
         query = 'querySelector',
@@ -101,11 +128,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 calendarName: '',
                 isDouble: false,
                 // 插件加载完成之后调用
-                mounted: function mounted() {},
+                mounted: function mounted() {
+                },
                 //时间变更之后调用
-                change: function change() {},
+                change: function change() {
+                },
                 //选择完成之后调用
-                done: function done() {}
+                done: function done() {
+                }
             };
 
             this.config = this.extend(this.config, json);
@@ -193,7 +223,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     if (obj) {
                         _this2.obj.calendar = obj;
                         _this2.$obj = obj;
-                    };
+                    }
+                    ;
 
                     if (!_this2.obj.calendar) {
                         //没有calendar为第一次生成
@@ -203,7 +234,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                             var noDoubleObj = _this2.config.calendarName.replace(/DOUBLE/, '');
                             _this2.obj.$noDoubleObj = window[noDoubleObj];
                             window[noDoubleObj].obj.$noDoubleObj = _this2;
-                        };
+                        }
+                        ;
 
                         // 获得年月日
                         var html = _this2.objHTML(); //生成时间选择器HTML
@@ -234,7 +266,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                         _this2.calendarClick();
                     } else {
                         _this2.elemEventPoint(e); //定位并显示选择器
-                    };
+                    }
+                    ;
                     _this2.obj.initVal = _this2.obj.input.value;
 
                     // 隐藏其他时间插件框
@@ -451,7 +484,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     this.obj.calendar.style.left = objOffsetLeft + this.config.width + 'px';
                 } else {
                     this.obj.calendar.style.left = objOffsetLeft + 'px';
-                };
+                }
+                ;
                 //double 处理
                 if (objBotton > this.config.height) {
                     //插件在input框之下
@@ -952,7 +986,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                                 } else {
                                     noDoubleStr = noDoubleData.year + "/" + noDoubleData.month + "/" + noDoubleData.today;
                                     haveDoubleStr = this.obj.fulldatas.year + "/" + this.obj.fulldatas.month + "/" + this.obj.fulldatas.today;
-                                };
+                                }
+                                ;
                                 break;
                             case 'year':
                                 isFormat = false;
@@ -969,7 +1004,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                                 noDoubleStr = noDoubleData.hour + ":" + noDoubleData.minute + ":" + noDoubleData.second;
                                 haveDoubleStr = this.obj.fulldatas.hour + ":" + this.obj.fulldatas.minute + ":" + this.obj.fulldatas.second;
                                 break;
-                        };
+                        }
+                        ;
                         value = noDoubleStr + '|' + haveDoubleStr;
                     } else {
                         value = this.obj.fulldatas.year + "/" + this.obj.fulldatas.month + "/" + this.obj.fulldatas.today;
@@ -1098,7 +1134,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 if (isrender) {
                     this.$obj[query](".top-check-" + type).innerHTML = topHTML;
                     this.$obj[query](".main-check-" + type).innerHTML = mainHTML;
-                };
+                }
+                ;
                 this.showOrHide(this.$obj[quall]('.common-top'), 'hide');
                 this.showOrHide(this.$obj[quall]('.common-main'), 'hide');
                 this.$obj[query](".main-check-" + type).style.display = 'block';
@@ -1129,7 +1166,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                             clickType: clickType
                         });
                     }
-                };
+                }
+                ;
             }
         }, {
             key: "getDoubleTime",
@@ -1341,6 +1379,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var cloneOption = Object.assign(extendDeep(option), json);
             window[option.calendarName] = new calendar(cloneOption);
         }
+
         //深度复制
         function extendDeep(parent, child) {
             child = child || {};

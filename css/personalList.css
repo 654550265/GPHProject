@@ -76,7 +76,7 @@ a:hover {
 }
 
 .box-left {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0;
     height: 100%;

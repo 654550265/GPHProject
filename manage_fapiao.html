@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单</title>
+    <link rel="stylesheet" href="css/personalList.css">
+    <link rel="stylesheet" href="css/zane-calendar.css">
+</head>
+<body>
+<div class="top">
+    <a href="#" class="top-name">商务中心</a>
+    <a href="#" class="vip-service">会员服务</a>
+    <a href="#" class="vip-service right-br">网站首页</a>
+</div>
+<div class="box-box">
+    <div class="box-left">
+        <p class="title">订单中心</p>
+        <ul>
+            <li>
+                <a href="">我的订单</a>
+            </li>
+            <li><a href="#">收货单管理</a></li>
+            <li><a href="#">退货单管理</a></li>
+            <li><a href="#">物流管理</a></li>
+        </ul>
+        <p class="title">我的对账单</p>
+        <ul>
+            <li><a href="#">对账单管理</a></li>
+            <li><a href="#">发票管理</a></li>
+        </ul>
+        <p class="title">基本信息</p>
+        <ul>
+            <li><a href="#">个人信息</a></li>
+            <li><a href="#">我的仓库</a></li>
+            <li><a href="#">收货地址</a></li>
+        </ul>
+        <p class="title">积分管理</p>
+        <ul>
+            <li><a href="#">积分换礼</a></li>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">礼品</a></li>
+        </ul>
+    </div>
+    <div class="box-right">
+        <ul class="dingdanlist">
+            <li>
+                <a href="#">发票管理</a>
+            </li>
+        </ul>
+        <div class="put-box">
+            <select name="tiaojian" class="tiaojian">
+                <option value="0">按条件</option>
+                <option value="0">对账单号</option>
+                <option value="0">客户公司</option>
+                <option value="0">客账号</option>
+                <option value="0">开票财务</option>
+                <option value="0">快递公司</option>
+                <option value="0">物流号码</option>
+                <option value="0">关键词</option>
+            </select>
+            <input type="text" class="tiaojian-put">
+            <span class="order-text">对账时间:</span>
+            <div class="demo" id="demo21"><div class="input" id="demo19"></div></div>
+            <span>-</span>
+            <div class="demo"><div class="input" id="demo20"></div></div>
+            <button class="search">搜索</button>
+            <button class="search">重置</button>
+        </div>
+        <div class="dingdan-type">
+            <ul class="dingdan-type-left">
+                <li><a href="#">全部</a></li>
+
+            </ul>
+            <div class="message-box">
+                <ul class="title-list">
+                    <li class="width-20">对账单号</li>
+                    <li class="width-20">发票抬头</li>
+                    <li class="width-15">开票时间</li>
+                    <li class="width-5">总金额</li>
+                    <li class="width-5">税点</li>
+                    <li class="width-5">税额</li>
+                    <li class="width-15">用途</li>
+                    <li class="width-15">物流信息</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao width-20"><a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao width-20"><a href="#">无锡市***有限公司</a></li>
+                    <li class="dingdanhao width-15">2017-10-30 13:39</a></li>
+                    <li class="dingdanhao width-5">999.99</li>
+                    <li class="dingdanhao width-5">3%</li>
+                    <li class="dingdanhao width-5">2700.00</li>
+                    <li class="dingdanhao width-15">用途</li>
+                    <li class="dingdanhao width-15">物流信息</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao width-20"><a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao width-20"><a href="#">无锡市***有限公司</a></li>
+                    <li class="dingdanhao width-15">2017-10-30 13:39</a></li>
+                    <li class="dingdanhao width-5">999.99</li>
+                    <li class="dingdanhao width-5">3%</li>
+                    <li class="dingdanhao width-5">2700.00</li>
+                    <li class="dingdanhao width-15">用途</li>
+                    <li class="dingdanhao width-15">物流信息</li>
+                </ul>
+                <ul class="dingdanhao-type">
+                    <li class="dingdanhao width-20"><a href="#">ceshi22-dtmoban</a></li>
+                    <li class="dingdanhao width-20"><a href="#">无锡市***有限公司</a></li>
+                    <li class="dingdanhao width-15">2017-10-30 13:39</a></li>
+                    <li class="dingdanhao width-5">999.99</li>
+                    <li class="dingdanhao width-5">3%</li>
+                    <li class="dingdanhao width-5">2700.00</li>
+                    <li class="dingdanhao width-15">用途</li>
+                    <li class="dingdanhao width-15">物流信息</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/rili.js"></script>
+<script>
+    (function(){
+        var date=new Date();
+        var year=date.getFullYear();
+        var mon=date.getMonth()+1;
+        var day=date.getDate();
+        zaneDate({
+            elem:'#demo19',
+            showtime:false,
+            begintime:year+'-'+mon+'-'+day,
+        });
+        zaneDate({
+            elem:'#demo20',
+            showtime:false,
+            begintime:year+'-'+mon+'-'+day,
+        })
+    })();
+</script>
+</body>
+</html>
